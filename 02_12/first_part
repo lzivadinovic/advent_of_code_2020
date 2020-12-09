@@ -1,0 +1,1 @@
+{ split($1,num,"-"); split($2,char,":"); split($3,lines,char[1]); BROJ_KARAKTERA=length(lines)-1; if (BROJ_KARAKTERA>=num[1] && BROJ_KARAKTERA<=num[2]) print "validna sifra za " $3}

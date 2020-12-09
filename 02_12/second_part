@@ -1,0 +1,1 @@
+{ split($1,num,"-"); split($2,char,":"); if (xor(substr($3,num[1],1)==char[1], substr($3,num[2],1)==char[1])) print "VALIDNO " }
